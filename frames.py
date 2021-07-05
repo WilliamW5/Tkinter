@@ -5,6 +5,7 @@ root = Tk()
 root.title('Frames')
 root.iconbitmap('Images\WillRagB.ico')
 
+# puts padding inside of the frame
 frame = LabelFrame(root, text="This is my Frame...", padx=50, pady=50)
 
 # packs inside of the outside container
